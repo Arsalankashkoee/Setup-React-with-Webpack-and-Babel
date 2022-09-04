@@ -11,6 +11,7 @@ module.exports = {
         process.env.NAME || "React Instructor!"
       ),
     }),
+    
     new webpack.ProvidePlugin({
       React: "react",
     }),
